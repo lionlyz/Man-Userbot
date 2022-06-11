@@ -1,0 +1,12 @@
+version: "1.0"
+services:
+  worker:
+    build: .
+    environment:
+      API_KEY: $API_KEY
+      API_HASH: $API_HASH
+      BOT_TOKEN: $BOT_TOKEN
+      BOTLOG_CHATID: $BOTLOG_CHATID
+      DATABASE_URL: $DATABASE_URL
+      PM_AUTO_BAN: $PM_AUTO_BAN
+      STRING_SESSION: $STRING_SESSION

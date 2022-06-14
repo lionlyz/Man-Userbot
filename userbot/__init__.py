@@ -115,7 +115,7 @@ if not BLACKLIST_CHAT:
     BLACKLIST_CHAT = [-1001473548283]
 
 # Telegram App KEY and HASH
-API_KEY = int(os.environ.get("API_KEY", "1620945"0))
+API_KEY = int(os.environ.get("API_KEY", "1620945"))
 API_HASH = str(os.environ.get("API_HASH", "a4573c55ebf7c23038b927997447b78d"))
 
 # Userbot Session String

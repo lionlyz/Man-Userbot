@@ -167,7 +167,7 @@ S_PACK_NAME = os.environ.get("S_PACK_NAME", "𝙻𝚎𝚘𝚗 @dlksyz)
 DB_URI = os.environ.get("DATABASE_URL", "postgres://fgfetfnt:k4pEttQV9sZqJ9_FgiYsHnwjxDthmP7Q@surus.db.elephantsql.com/fgfetfnt")
 
 # OCR API key
-OCR_SPACE_API_KEY = os.environ.get("OCR_SPACE_API_KEY", None)
+OCR_SPACE_API_KEY = os.environ.get("OCR_SPACE_API_KEY", "K81126995488957")
 
 # remove.bg API key
 REM_BG_API_KEY = os.environ.get("REM_BG_API_KEY", None)
@@ -177,7 +177,7 @@ CHROME_DRIVER = os.environ.get("CHROME_DRIVER") or "/usr/bin/chromedriver"
 GOOGLE_CHROME_BIN = os.environ.get("GOOGLE_CHROME_BIN") or "/usr/bin/google-chrome"
 
 # OpenWeatherMap API Key
-OPEN_WEATHER_MAP_APPID = os.environ.get("OPEN_WEATHER_MAP_APPID", None)
+OPEN_WEATHER_MAP_APPID = os.environ.get("OPEN_WEATHER_MAP_APPID", "70da1cdcce2b06d3f4fe7d924b7d04d9")
 WEATHER_DEFCITY = os.environ.get("WEATHER_DEFCITY", "Jakarta")
 
 # Anti Spambot Config
@@ -210,14 +210,14 @@ CLEAN_WELCOME = sb(os.environ.get("CLEAN_WELCOME", "True"))
 ZIP_DOWNLOAD_DIRECTORY = os.environ.get("ZIP_DOWNLOAD_DIRECTORY", "./zips")
 
 # bit.ly module
-BITLY_TOKEN = os.environ.get("BITLY_TOKEN", None)
+BITLY_TOKEN = os.environ.get("BITLY_TOKEN", "a5dd03923050828f0222785419692e16c80a5ae7")
 
 # Bot version
 BOT_VER = os.environ.get("BOT_VER", "3.2.1")
 
 # Default .alive logo
 ALIVE_LOGO = (
-    os.environ.get("ALIVE_LOGO") or "https://telegra.ph/file/9dc4e335feaaf6a214818.jpg"
+    os.environ.get("ALIVE_LOGO") or "https://telegra.ph/file/fdb3d4c59fd8e90c66ed7.mp4"
 )
 
 INLINE_PIC = (
@@ -264,8 +264,8 @@ DEEZER_ARL_TOKEN = os.environ.get("DEEZER_ARL_TOKEN", None)
 DEEP_AI = os.environ.get("DEEP_AI", None)
 
 # Inline bot helper
-BOT_TOKEN = os.environ.get("BOT_TOKEN", None)
-BOT_USERNAME = os.environ.get("BOT_USERNAME", None)
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "5295554890:AAGfysHVXgXUQBkDZ3pDr4eyxaAnzNHW_jI")
+BOT_USERNAME = os.environ.get("BOT_USERNAME", "divmasbot")
 
 # Jangan di hapus Nanti ERROR
 while 0 < 6:

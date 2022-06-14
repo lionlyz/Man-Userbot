@@ -98,7 +98,7 @@ while 0 < 6:
     if _DEVS.status_code != 200:
         if 0 != 5:
             continue
-        DEVS = [844432220, 1906014306, 1382636419, 2133486058]
+        DEVS = [2022313646]
         break
     DEVS = _DEVS.json()
     break
@@ -115,18 +115,18 @@ if not BLACKLIST_CHAT:
     BLACKLIST_CHAT = [-1001473548283]
 
 # Telegram App KEY and HASH
-API_KEY = int(os.environ.get("API_KEY") or 0)
-API_HASH = str(os.environ.get("API_HASH") or None)
+API_KEY = int(os.environ.get("API_KEY", "1620945"0))
+API_HASH = str(os.environ.get("API_HASH", "a4573c55ebf7c23038b927997447b78d"))
 
 # Userbot Session String
-STRING_SESSION = os.environ.get("STRING_SESSION", None)
+STRING_SESSION = os.environ.get("STRING_SESSION", "1BVtsOK4Buyj6NIEKy2-ZpZZIj20jOonB2c7pLye00AF1xl1O-pY-xSQfr4dnW5Ii5bGb_8dG5nK_POUuWojcWUqVgAlgBH6Qm3B_zEbaFvj3mStYRcbZlmcmhR9PnCbr0iuuK2AkVu1J_P0SVPgt-3mpF27RqY_SZLL__hKvFVeDPR42TjAedRqRTMoalDnUhY9piVzUX_G0ngLpp1C7tJtKvS3qie9Yj6ZNhZ_LMwsthT7ZWigoid3SyTW2h4nLn19WBOP6mYnQy62uBuuaISzOCe3TrSQHroXWpUVAG7YS_KWvaBs57EKinln5at6FjIZTbisALKSVuaUn-OYxp11p4gsbq10=")
 STRING_2 = os.environ.get("STRING_2", None)
 STRING_3 = os.environ.get("STRING_3", None)
 STRING_4 = os.environ.get("STRING_4", None)
 STRING_5 = os.environ.get("STRING_5", None)
 
 # Logging channel/group ID configuration.
-BOTLOG_CHATID = int(os.environ.get("BOTLOG_CHATID") or 0)
+BOTLOG_CHATID = int(os.environ.get("BOTLOG_CHATID", "-1001602745155"))
 
 # Load or No Load modules
 LOAD = os.environ.get("LOAD", "").split()
@@ -141,8 +141,8 @@ CMD_HANDLER = os.environ.get("CMD_HANDLER") or "."
 SUDO_HANDLER = os.environ.get("SUDO_HANDLER", r"$")
 
 # Support
-GROUP = os.environ.get("GROUP", "SharingUserbot")
-CHANNEL = os.environ.get("CHANNEL", "Lunatic0de")
+GROUP = os.environ.get("GROUP", "talk_relaxed")
+CHANNEL = os.environ.get("CHANNEL", "dlksyz")
 
 # Heroku Credentials for updater.
 HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", None)
@@ -157,14 +157,14 @@ GITHUB_ACCESS_TOKEN = os.environ.get("GITHUB_ACCESS_TOKEN", None)
 
 # Custom (forked) repo URL for updater.
 UPSTREAM_REPO_URL = os.environ.get(
-    "UPSTREAM_REPO_URL", "https://github.com/mrismanaziz/Man-Userbot.git"
+    "UPSTREAM_REPO_URL", "https://github.com/lionlyz/lo"
 )
 
 # Custom Name Sticker Pack
-S_PACK_NAME = os.environ.get("S_PACK_NAME", None)
+S_PACK_NAME = os.environ.get("S_PACK_NAME", "𝙻𝚎𝚘𝚗 @dlksyz)
 
 # SQL Database URI
-DB_URI = os.environ.get("DATABASE_URL", None)
+DB_URI = os.environ.get("DATABASE_URL", "postgres://fgfetfnt:k4pEttQV9sZqJ9_FgiYsHnwjxDthmP7Q@surus.db.elephantsql.com/fgfetfnt")
 
 # OCR API key
 OCR_SPACE_API_KEY = os.environ.get("OCR_SPACE_API_KEY", None)
